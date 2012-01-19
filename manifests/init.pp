@@ -17,8 +17,8 @@
 # This class is not intended to be used directly.
 # It may be imported or inherited by other classes
 #
-# General settings for standard types
-Exec { path => '/bin:/sbin:/usr/bin:/usr/sbin' }
+# This should not be the right place for resource defaults
+# Exec { path => '/bin:/sbin:/usr/bin:/usr/sbin' }
 
 #import "*.pp"
 
